@@ -45,7 +45,9 @@ namespace FastColoredTextBoxNS
         /// </summary>
         [Description("Scale")]
         [DefaultValue(0.3f)]
+#pragma warning disable CS0108 // Member hides inherited member; missing new keyword
         public float Scale
+#pragma warning restore CS0108 // Member hides inherited member; missing new keyword
         {
             get { return scale; }
             set

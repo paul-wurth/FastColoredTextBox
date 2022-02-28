@@ -91,7 +91,9 @@ namespace FastColoredTextBoxNS
                 return Encoding.UTF8;
 
             if (BOMBytes[0] == 0x2b && BOMBytes[1] == 0x2f && BOMBytes[2] == 0x76)
+#pragma warning disable SYSLIB0001 // Type or member is obsolete
                 return Encoding.UTF7;
+#pragma warning restore SYSLIB0001 // Type or member is obsolete
 
             if (BOMBytes.Length < 4)
                 return null;
