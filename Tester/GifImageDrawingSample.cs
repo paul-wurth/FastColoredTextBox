@@ -1,15 +1,10 @@
-﻿using System;
+﻿using FastColoredTextBoxNS;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
 using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Windows.Forms;
-using FastColoredTextBoxNS;
 using System.Text.RegularExpressions;
-using System.Drawing.Imaging;
-using System.Timers;
+using System.Windows.Forms;
+using Range = FastColoredTextBoxNS.Range;
 
 namespace Tester
 {

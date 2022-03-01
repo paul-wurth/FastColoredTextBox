@@ -1,13 +1,11 @@
-﻿using System;
+﻿using FastColoredTextBoxNS;
+using System;
 using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
+using System.Diagnostics.CodeAnalysis;
 using System.Drawing;
-using System.Linq;
 using System.Runtime.InteropServices;
-using System.Text;
 using System.Windows.Forms;
-using FastColoredTextBoxNS;
+using Range = FastColoredTextBoxNS.Range;
 
 namespace Tester
 {
@@ -103,15 +101,19 @@ namespace Tester
 
         public struct FONTSIGNATURE
         {
+#pragma warning disable CS0169 // Field is never used
             [MarshalAs(UnmanagedType.ByValArray)]
             int[] fsUsb;
             [MarshalAs(UnmanagedType.ByValArray)]
             int[] fsCsb;
+#pragma warning restore CS0169 // Field is never used
         }
         public struct NEWTEXTMETRICEX
         {
+#pragma warning disable CS0169 // Field is never used
             NEWTEXTMETRIC ntmTm;
             FONTSIGNATURE ntmFontSig;
+#pragma warning restore CS0169 // Field is never used
         }
 
         [StructLayout(LayoutKind.Sequential, CharSet = CharSet.Auto)]

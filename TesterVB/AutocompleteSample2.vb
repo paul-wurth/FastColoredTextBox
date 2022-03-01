@@ -1,4 +1,5 @@
 ﻿Imports System.Text.RegularExpressions
+Imports Range = FastColoredTextBoxNS.Range
 
 Public Class AutocompleteSample2
 

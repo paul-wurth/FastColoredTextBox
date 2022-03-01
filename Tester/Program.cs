@@ -1,6 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
+using System;
 using System.Windows.Forms;
 
 namespace Tester
@@ -13,6 +11,9 @@ namespace Tester
         [STAThread]
         static void Main()
         {
+#if NETCOREAPP
+            Application.SetHighDpiMode(HighDpiMode.SystemAware);
+#endif
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new MainForm());

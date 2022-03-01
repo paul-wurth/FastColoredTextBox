@@ -1,10 +1,9 @@
-﻿using System.Windows.Forms;
-using FastColoredTextBoxNS;
-using System.Drawing;
+﻿using FastColoredTextBoxNS;
 using System;
-using System.Linq;
 using System.Collections.Generic;
 using System.Text.RegularExpressions;
+using System.Windows.Forms;
+using Range = FastColoredTextBoxNS.Range;
 
 namespace Tester
 {

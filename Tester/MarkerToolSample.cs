@@ -1,8 +1,9 @@
-﻿using System;
+﻿using FastColoredTextBoxNS;
+using System;
 using System.Drawing;
-using System.Windows.Forms;
-using FastColoredTextBoxNS;
 using System.Drawing.Drawing2D;
+using System.Windows.Forms;
+using Range = FastColoredTextBoxNS.Range;
 
 namespace Tester
 {

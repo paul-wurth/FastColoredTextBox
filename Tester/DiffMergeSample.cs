@@ -1,12 +1,13 @@
-﻿using System;
+﻿using FastColoredTextBoxNS;
+using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Drawing;
 using System.IO;
 using System.Text;
 using System.Windows.Forms;
-using FastColoredTextBoxNS;
 using Tester.DiffMergeStuffs;
+using Range = FastColoredTextBoxNS.Range;
 
 namespace Tester
 {
@@ -402,6 +403,11 @@ namespace Tester
                 this.line = line;
             }
 
+            public override int GetHashCode()
+            {
+                return line.GetHashCode();
+            }
+
             /// <summary>
             /// Equals
             /// </summary>
@@ -444,7 +450,7 @@ namespace Tester
             {
             }
 
-            public Line this[int i]
+            public new Line this[int i]
             {
                 get
                 {

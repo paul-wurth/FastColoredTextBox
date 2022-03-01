@@ -1,8 +1,5 @@
-Imports FastColoredTextBoxNS
-Imports System
-Imports System.Linq
 Imports System.Threading
-Imports System.Windows.Forms
+Imports Range = FastColoredTextBoxNS.Range
 
 Namespace TesterVB
     Public Class ConsoleTextBox

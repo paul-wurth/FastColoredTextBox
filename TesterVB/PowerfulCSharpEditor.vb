@@ -1,15 +1,10 @@
-Imports FarsiLibrary.Win
-Imports FastColoredTextBoxNS
-Imports System
-Imports System.Collections.Generic
 Imports System.ComponentModel
-Imports System.Drawing
 Imports System.Drawing.Drawing2D
 Imports System.IO
-Imports System.Linq
 Imports System.Text.RegularExpressions
 Imports System.Threading
-Imports System.Windows.Forms
+Imports FarsiLibrary.Win
+Imports Range = FastColoredTextBoxNS.Range
 
 '-----------------------------------------------------------------------------------------------------
 ' Note: this sample is deprecated. See project Tester for newest code samples.

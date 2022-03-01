@@ -1,12 +1,8 @@
-Imports FastColoredTextBoxNS
-Imports System
-Imports System.Collections.Generic
 Imports System.ComponentModel
-Imports System.Drawing
 Imports System.IO
 Imports System.Text
 Imports System.Text.RegularExpressions
-Imports System.Windows.Forms
+Imports Range = FastColoredTextBoxNS.Range
 
 Namespace TesterVB
 

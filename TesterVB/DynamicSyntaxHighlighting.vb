@@ -1,9 +1,6 @@
-Imports FastColoredTextBoxNS
-Imports System
 Imports System.ComponentModel
-Imports System.Drawing
 Imports System.Text.RegularExpressions
-Imports System.Windows.Forms
+Imports Range = FastColoredTextBoxNS.Range
 
 Namespace TesterVB
     Public Class DynamicSyntaxHighlighting
