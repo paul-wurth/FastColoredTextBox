@@ -1,14 +1,26 @@
-FastColoredTextBox
-==================
+# PW.FastColoredTextBox
 
-Fast Colored TextBox is text editor component for .NET.
-Allows you to create custom text editor with syntax highlighting.
+A custom text editor with syntax highlighting for WinForms.  
 It works well with small, medium, large and very-very large files.
 
-It has such settings as foreground color, font style, background color which can be adjusted for arbitrarily selected text symbols. One can easily gain access to a text with the use of regular expressions. WordWrap, Find/Replace, Code folding and multilevel Undo/Redo are supported as well. 
+Forked from [this project](https://github.com/PavelTorgashov/FastColoredTextBox) by Pavel Torgashov to add support for .NET Core/5+.
 
-![Fast Colored TextBox](http://www.codeproject.com/KB/edit/FastColoredTextBox_/fastcoloredtextbox2.png)
+![FastColoredTextBox Sample](https://www.codeproject.com/KB/edit/FastColoredTextBox_/fastcoloredtextbox2.png)
 
-More details http://www.codeproject.com/Articles/161871/Fast-Colored-TextBox-for-syntax-highlighting
+Supported platforms:
+- .NET Core 3.1 and .NET 5+
+- .NET Framework 2.x, 3.x and 4.x
 
-Nuget package https://www.nuget.org/packages/FCTB/
+## Features
+
+It has such settings as foreground color, font style, background color which can be adjusted for arbitrarily selected text symbols.  
+One can easily gain access to a text with the use of regular expressions. WordWrap, Find/Replace, Code folding and multilevel Undo/Redo are supported as well.
+
+More details: https://www.codeproject.com/Articles/161871/Fast-Colored-TextBox-for-syntax-highlighting
+
+## License
+
+Copyright © Pavel Torgashov, 2011-2016, pavel_torgashov@ukr.net.  
+Copyright © Paul Wurth S.A. 2022.
+
+This repository is licensed with the [GNU Lesser General Public License v3.0 only (LGPL-3.0-only)](/COPYING.LESSER). See also the [GNU General Public License v3.0 only (GPL-3.0-only)](/COPYING).
