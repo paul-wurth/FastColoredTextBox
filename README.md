@@ -3,13 +3,13 @@
 A custom text editor with syntax highlighting for WinForms.  
 It works well with small, medium, large and very-very large files.
 
-Forked from [this project](https://github.com/PavelTorgashov/FastColoredTextBox) by Pavel Torgashov to add support for .NET Core/5+.
+Forked from [this project](https://github.com/PavelTorgashov/FastColoredTextBox) by Pavel Torgashov to add support for .NET 6+.
 
 ![FastColoredTextBox Sample](https://www.codeproject.com/KB/edit/FastColoredTextBox_/fastcoloredtextbox2.png)
 
 Supported platforms:
-- .NET Core 3.1 and .NET 5+
-- .NET Framework 2.x, 3.x and 4.x
+- .NET 6+
+- .NET Framework 4.x
 
 ## Features
 
